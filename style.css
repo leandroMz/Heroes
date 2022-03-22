@@ -42,8 +42,11 @@ font-size: 40px;
     flex-wrap: wrap;
     align-content: space-around;
 }
+main{
+    background-color: rgb(217, 228, 228);
+}
 .card{
-    background-color:antiquewhite;
+    background-color:rgb(255, 255, 255);
     width: 300px;
     height: 529px;
     display: flex;
@@ -54,6 +57,8 @@ font-size: 40px;
     flex-direction: column;
     margin-top: 5%;
     border-color: rgb(88, 92, 92);
+    padding: 1px;
+    border: #1CD1B0;
 
 }
 /* BATMAN 1 */
@@ -79,27 +84,32 @@ font-size: 40px;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
+    position: relative;
+    top: -30px;
+
 }
 .parrafo{
-    
+    padding: 10px;
     font-family: 'Lato', sans-serif;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 15px;
-}
+    font-size: 13px;
+    position: relative;
+    top: -15px;
+    }
 .button{
     
     background-color: #00669F;
-    width: 128.78px;
-height: 48.52px;
-left: 117px;
-top: 754px;
+    width: 120.78px;
+    height: 52.52px;
+    position: relative;
+    top: -15px;
 
 }
 .pp{
     padding: 15px 2px 8px 35px;
     color: aliceblue;
-    box-shadow: 0px 5px 5px #1d4d45;
+    box-shadow: 1px 1px 3px #013958;
     
 }
 .end{
